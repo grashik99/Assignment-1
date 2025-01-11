@@ -95,6 +95,8 @@ nav a:hover {
 
 .pillars h3 {
     margin-bottom: 30px;
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.751);
 }
 
 .pillars-container {
@@ -321,7 +323,9 @@ select {
 .donate {
     text-align: center;
 }
-
+.h-donate{
+    margin-bottom: 20px;
+}
 .fund-container {
     margin-top: 20px;
     display: flex;
@@ -411,13 +415,22 @@ form input {
 
 
 
-
-
-
-
-
-
 footer {
     margin-top: 100px;
-    margin-bottom: ;
+    margin-bottom: 50px;
+    text-align: center;
+}
+footer>h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+footer>h1:hover{
+    color: blue;
+}
+footer>div{
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
