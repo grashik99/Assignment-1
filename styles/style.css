@@ -24,15 +24,17 @@ body {
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
+    background-color: rgba(245, 222, 179, 0.159);
 }
 
 /* Nav section design */
-nav{
+nav {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .nav-btn {
     font-size: 18px;
     font-weight: 600;
@@ -47,12 +49,224 @@ nav{
     color: white;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: black;
     font-size: 32px;
     font-weight: 700;
 }
-nav a:hover{
+
+nav a:hover {
     color: green;
+}
+
+
+
+/* Hero section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    background-color: rgba(0, 128, 0, 0.172);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.hero h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.541);
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+
+/* pillars section */
+.pillars {
+    margin-top: 70px;
+}
+
+.pillars h3 {
+    margin-bottom: 30px;
+}
+
+.pillars-container {
+    display: flex;
+    gap: 10px;
+}
+
+.pillars-container div {
+    padding: 15px 10px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+.pillars-container img {
+    margin-bottom: 15px;
+}
+
+.pillars-container h4 {
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.859);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.pillars-container p {
+    color: rgba(0, 0, 0, 0.612);
+    font-weight: 500;
+}
+
+
+
+/* vision section */
+.vision {
+    margin-top: 70px;
+}
+
+.vision-top h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.vision-top p {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.765);
+}
+
+.vision-card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.vision-card-container>div {
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.vision-card-container img {
+    margin-bottom: 20px;
+}
+
+.vision-card-container h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.vision-card-container p {
+    margin-bottom: 30px;
+}
+
+.card-1 {
+    background-color: rgba(255, 255, 0, 0.253);
+}
+
+.card-1 button {
+    background-color: rgba(255, 0, 0, 0.507);
+}
+
+.card-2 {
+    background-color: rgba(0, 128, 0, 0.254);
+}
+
+.card-2 button {
+    background-color: rgba(102, 51, 153, 0.793);
+}
+
+.card-3 {
+    background-color: rgba(255, 0, 0, 0.327);
+}
+
+
+/* donald-Trump section */
+.donald-Trump {
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 40px;
+    border: 1px solid black;
+}
+
+.donald-Trump div {
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+}
+
+.donald-Trump p {
+    margin-bottom: 10px;
+}
+
+.donald-Trump h4 {
+    margin-bottom: 5px;
+}
+
+.donald-Trump h5 {
+    color: rgba(0, 0, 0, 0.477);
+}
+
+
+
+
+/* Opinion section */
+.opinion {
+    margin-top: 70px;
+}
+
+.opinion>h1 {
+    margin-bottom: 20px;
+}
+
+.padding{
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.opt-con>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.opt-con .opt-head {
+    padding: 20px 10px;
+    background-color: rgba(0, 128, 0, 0.329);
+}
+
+.options div {
+    border-left: 1px solid black;
+    padding: 20px 10px;
+    padding-left: 150px;
+}
+
+select{
+    padding: 5px;
+}
+
+.options h4 {
+    padding: 5px;
+}
+
+
+
+
+
+
+
+footer {
+    margin-top: 100px;
 }
