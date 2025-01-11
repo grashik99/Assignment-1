@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Shared style */
+.btn {
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.btn:hover {
+    background-color: rgba(255, 0, 0, 0.622);
+}
+
+body {
+    width: 85%;
+    margin: 0 auto;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Nav section design */
+nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-btn {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.nav-btn:hover {
+    background-color: rgb(47, 133, 13);
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+}
+nav a:hover{
+    color: green;
+}
