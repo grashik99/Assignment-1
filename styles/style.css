@@ -263,7 +263,50 @@ select{
 
 
 
+/* News section */
+.news-section{
+    margin-top: 30px;
+}
+.news-section>h1{
+    margin-bottom: 10px;
+}
+.news-section>p{
+    color: rgba(0, 0, 0, 0.605);
+}
+.news-container{
+    margin-top: 30px;
+}
+.news{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.news>img{
+    border-radius: 15px;
+    width: 50%;
+}
 
+.news button{
+    position: absolute;
+    bottom: 30px;
+}
+.news h1{
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.88);
+}
+.news h6{
+    margin-bottom: 8px;
+    color: rgba(0, 0, 0, 0.52);
+}
+.news p{
+    color: rgba(0, 0, 0, 0.537);
+}
 
 
 
